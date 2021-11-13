@@ -56,6 +56,33 @@ new_record_class <- data.frame(CNT_CHILDREN = 0,
                                AMT_ANNUITY = 40428, 
                                AMT_GOODS_PRICE = 360000, 
                                DAYS_EMPLOYED = -1304)
+new_record_class2 <- data.frame(CNT_CHILDREN = 0,
+                               AMT_INCOME_TOTAL = 292500,
+                               AMT_CREDIT = 675000, 
+                               AMT_ANNUITY = 24376.5, 
+                               AMT_GOODS_PRICE = 675000, 
+                               DAYS_EMPLOYED = -1548)
+
+new_record_class3 <- data.frame(CNT_CHILDREN = 0,
+                               AMT_INCOME_TOTAL = 157500,
+                               AMT_CREDIT = 761067, 
+                               AMT_ANNUITY = 33655.5, 
+                               AMT_GOODS_PRICE = 657000, 
+                               DAYS_EMPLOYED = -2124)
+
+new_record_class4 <- data.frame(CNT_CHILDREN = 0,
+                               AMT_INCOME_TOTAL = 90000,
+                               AMT_CREDIT = 67500, 
+                               AMT_ANNUITY = 7047, 
+                               AMT_GOODS_PRICE = 67500, 
+                               DAYS_EMPLOYED = 365243)
+
+new_record_class5 <- data.frame(CNT_CHILDREN = 3,
+                               AMT_INCOME_TOTAL = 135000,
+                               AMT_CREDIT = 301464, 
+                               AMT_ANNUITY = 20277, 
+                               AMT_GOODS_PRICE = 238500, 
+                               DAYS_EMPLOYED = -989)
 
 class_tr <- predict(class_tr, newdata = new_record_class)
 class_tr
